@@ -1,0 +1,29 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.6.3'
+    }
+}
+
+apply plugin: 'android-library'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion '18.1.1'
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 18
+    }
+}
+
+dependencies {
+    compile 'com.squareup.dagger:dagger-compiler:1.1.0'
+    compile 'com.squareup.dagger:dagger-parent:1.1.0'
+    compile 'de.greenrobot:eventbus:2.0.2'
+}
