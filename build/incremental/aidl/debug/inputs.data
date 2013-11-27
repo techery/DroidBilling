@@ -1,4 +1,0 @@
-# incremental data. DO NOT EDIT.
-# format is <lastModified> <length> <SHA-1> <path>
-# Encoding is UTF-8
-1385582577000 8411 42e4f055163455de255290ebc23e9fb31fce2fb1 /Users/ad/Desktop/SandboxProject/DroidBilling/src/main/aidl/com/android/vending/billing/IInAppBillingService.aidl
